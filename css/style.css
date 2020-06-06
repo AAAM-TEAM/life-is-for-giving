@@ -19,7 +19,7 @@
 }
 
 #header-home img {
-  margin: 3% 0 0 3%;
+  margin-left: 32px;
 }
 
 #header-home nav {
@@ -124,7 +124,7 @@
   line-height: 1.6em;
   text-transform: uppercase;
 }
-main div button {
+main div a button {
   float: right;
   color: #f5f5f5;
   width: 160px;
@@ -134,6 +134,64 @@ main div button {
   background-color: #fa446c;
   font-family: "Chau Philomene One", sans-serif;
   font-size: 1.6em;
+}
+
+#sub-footer {
+  background-color: #b173b2;
+  margin-top: 10px;
+  padding: 30px 20px;
+  height: 320px;
+}
+#sub-footer img {
+  float: left;
+  margin-left: 90px;
+}
+#sub-footer img:nth-child(2) {
+  margin-left: 10px;
+}
+#sub-footer img:nth-child(3) {
+  margin-left: 10px;
+}
+#left-ul {
+  float: left;
+  font-size: 20px;
+  padding-left: 140px;
+  padding-top: 60px;
+}
+#left-ul li a {
+  line-height: 1.4em;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+#left-ul li a:hover {
+  color: #f5f5f5;
+}
+#contactInfo {
+  float: left;
+  font-size: 20px;
+  padding-left: 140px;
+  padding-top: 60px;
+}
+#contactInfo h3 {
+  line-height: 1.4em;
+  font-family: "Varela Round", sans-serif;
+}
+
+#footer-images img {
+  padding-left: 10px;
+  padding-top: 170px;
+}
+
+footer {
+  height: 60px;
+  background-color: #000000;
+}
+footer p {
+  padding-top: 24px;
+  font-family: "Varela Round", sans-serif;
+  color: #f5f5f5;
+  text-align: center;
 }
 /* end of home page*/
 
