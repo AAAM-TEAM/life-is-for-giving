@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One&family=Varela+Round&display=swap");
 /* font-family: 'Varela Round', sans-serif; */
+
 /* font-family: 'Chau Philomene One', sans-serif; */
 
 /* heder for all */
-#header-all{
-  font-family: "Chau Philomene One", sans-serif;
 
+#header-all {
+  font-family: "Chau Philomene One", sans-serif;
   width: 100%;
   height: 100px;
   background-image: url("../img/1440X550.jpg");
@@ -13,7 +14,7 @@
   background-size: cover;
 }
 
-#header-all a img{
+#header-all a img {
   margin: -40px 0 0 32px;
 }
 
@@ -33,10 +34,13 @@
   text-decoration: none;
   color: #f5f5f5;
 }
+
 #header-all a:hover {
   color: #000;
 }
+
 /* make sure it work */
+
 #header-all ul li a:focus {
   color: rgb(76, 83, 85);
 }
@@ -57,7 +61,9 @@
 /* end heder for all */
 
 /* home page*/
+
 /* header */
+
 #header-home {
   font-family: "Chau Philomene One", sans-serif;
   width: 100%;
@@ -87,13 +93,17 @@
   text-decoration: none;
   color: #f5f5f5;
 }
+
 #header-home a:hover {
   color: #000;
 }
+
 /* make sure it work */
+
 #header-home a:foucs {
   color: rgb(76, 83, 85);
 }
+
 #headerText1 h1 {
   margin: 7.6% 0 0 10%;
   font-size: 2em;
@@ -116,12 +126,15 @@
   font-family: "Chau Philomene One", sans-serif;
   font-size: 1.6em;
 }
+
 /* end of the header */
+
 #event {
   margin-top: 10px;
   background-color: #f1f1f1;
   padding: 20px 0px;
 }
+
 #event h3 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -129,6 +142,7 @@
   line-height: 1.6em;
   text-transform: capitalize;
 }
+
 #event img {
   width: 300px;
   height: 300px;
@@ -136,10 +150,12 @@
   padding: 0px 90px;
   margin-left: 18px;
 }
+
 #middle-paragraph {
   margin-top: 10px;
   padding: 30px 20%;
 }
+
 #middle-paragraph p {
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -147,11 +163,13 @@
   line-height: 1.6em;
   text-transform: capitalize;
 }
+
 #partner {
   margin-top: 10px;
   background-color: #f1f1f1;
   padding: 20px 0px;
 }
+
 #partner h3 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -159,6 +177,7 @@
   line-height: 1.6em;
   text-transform: capitalize;
 }
+
 #partner img {
   width: 240px;
   height: 240px;
@@ -166,9 +185,11 @@
   padding: 0px 60px;
   margin-left: 140px;
 }
+
 #partner img:nth-child(2) {
   margin-left: 110px;
 }
+
 #partner img:last-child {
   width: 400px;
   height: 240px;
@@ -179,6 +200,7 @@
   margin-top: 10px;
   padding: 30px 20%;
 }
+
 #donate-section h2 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -186,6 +208,7 @@
   line-height: 1.6em;
   text-transform: uppercase;
 }
+
 #donate-section p {
   font-family: "Varela Round", sans-serif;
   text-align: center;
@@ -193,6 +216,7 @@
   line-height: 1.6em;
   text-transform: uppercase;
 }
+
 main div a button {
   float: right;
   color: #f5f5f5;
@@ -211,37 +235,45 @@ main div a button {
   padding: 30px 20px;
   height: 320px;
 }
+
 #sub-footer a img {
   float: left;
   margin-left: 90px;
 }
+
 #sub-footer img:nth-child(2) {
   margin-left: 10px;
 }
+
 #sub-footer img:nth-child(3) {
   margin-left: 10px;
 }
+
 #left-ul {
   float: left;
   font-size: 20px;
   padding-left: 140px;
   padding-top: 60px;
 }
+
 #left-ul li a {
   line-height: 1.4em;
   font-family: "Varela Round", sans-serif;
   text-decoration: none;
   color: #000;
 }
+
 #left-ul li a:hover {
   color: #f5f5f5;
 }
+
 #contactInfo {
   float: left;
   font-size: 20px;
   padding-left: 140px;
   padding-top: 60px;
 }
+
 #contactInfo h3 {
   line-height: 1.4em;
   font-family: "Varela Round", sans-serif;
@@ -256,40 +288,117 @@ footer {
   height: 60px;
   background-color: #000000;
 }
+
 footer p {
   padding-top: 24px;
   font-family: "Varela Round", sans-serif;
   color: #f5f5f5;
   text-align: center;
 }
+
 /* end of home page*/
+
 /*////////////////////*/
+
 /* donation page*/
 
+#first-paragraph2 {
+  margin-top: 50px;
+  padding: 30px 20%;
+}
 
+#first-paragraph2 p {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6em;
+  text-transform: capitalize;
+}
 
+#image-item2 {
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  padding: 20px 0px;
+}
 
+#image-item2 div {
+  display: inline-block;
+  text-align: center;
+}
 
+#image-item2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 0px 90px;
+  margin-left: 18px;
+}
 
+#image-item2 h4 {
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 24px;
+}
 
+#form-contenar2{
+  padding: 2% 30% ;
+}
 
+form {
+  background-color: #f1f1f1;
+  font-family: "Chau Philomene One", sans-serif;
+  padding: 1% 10%;
+}
 
+legend {
+  font-size: 200%;
+  padding: 10px;
+  margin: 0 0 2% 0;
+  text-align: center;
+}
 
+form label {
+  display: block;
+  text-align: left;
+  font-size: 1.4em;
+  margin: 10% 0 0 0;
+}
+
+form input {
+  width: 50%;
+  height: 25px;
+  display: block;
+  margin: -25px 0 0 40%;
+}
+
+#submit2 {
+  color: #f5f5f5;
+  width: 135px;
+  height: 40px;
+  margin: 7% 0 4% 64%;
+  border: none;
+  background-color: #fa446c;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 1.6em;
+}
 
 /* end of donation page*/
+
 /*////////////////////*/
 
 /* contributes page*/
 
 /* end of contributes page*/
+
 /*////////////////////*/
 
 /* about page*/
+
 #profile-images {
   display: flex;
   flex-wrap: wrap;
 }
-#profile-images:nth-child(1){
+
+#profile-images:nth-child(1) {
   display: inline-block;
 }
 
@@ -300,12 +409,14 @@ footer p {
   /* padding-top: 30px; */
   font-size: 32px;
 }
+
 #profile-images div {
   /* padding-top: 80px; */
   margin: 60px 20px;
   float: left;
   /* padding-left: 20px; */
 }
+
 #profile-images div h3 {
   text-align: center;
   padding-right: 50px;
@@ -320,40 +431,49 @@ footer p {
   border: 0.7em solid rgb(228, 228, 228);
   height: 250px;
 }
+
 #abdulelah:hover {
   opacity: 80%;
 }
+
 /* #abdulelah:hover + .links4{
   display: inline-block;
 }
 .links4 {
   display: none;
 } */
+
 #mohammad {
   width: 250px;
   border-radius: 50%;
   border: 0.7em solid rgb(228, 228, 228);
   height: 250px;
 }
+
 #mohammad:hover {
   opacity: 80%;
 }
+
 #anas {
   width: 250px;
   border-radius: 50%;
   border: 0.7em solid rgb(228, 228, 228);
   height: 250px;
 }
+
 #anas:hover {
   opacity: 80%;
 }
+
 #ahmad {
   width: 250px;
   border-radius: 50%;
   border: 0.7em solid rgb(228, 228, 228);
   height: 250px;
 }
+
 #ahmad:hover {
   opacity: 80%;
 }
+
 /* end of about page*/
