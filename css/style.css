@@ -13,7 +13,7 @@
   background-size: cover;
 }
 
-#header-home img {
+#header-home a img {
   margin-left: 32px;
 }
 
@@ -33,9 +33,15 @@
   text-decoration: none;
   color: #f5f5f5;
 }
-
+#header-home a:hover {
+  color: #000;
+}
+/* make sure it work */
+#header-home a:foucs {
+  color: rgb(76, 83, 85);
+}
 #headerText1 h1 {
-  margin: 13% 0 0 10%;
+  margin: 7.6% 0 0 10%;
   font-size: 2em;
 }
 
@@ -62,6 +68,13 @@
   background-color: #f1f1f1;
   padding: 20px 0px;
 }
+#event h3 {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6em;
+  text-transform: capitalize;
+}
 #event img {
   width: 300px;
   height: 300px;
@@ -78,12 +91,19 @@
   text-align: center;
   font-size: 24px;
   line-height: 1.6em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 #partner {
   margin-top: 10px;
   background-color: #f1f1f1;
   padding: 20px 0px;
+}
+#partner h3 {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6em;
+  text-transform: capitalize;
 }
 #partner img {
   width: 240px;
@@ -137,7 +157,7 @@ main div a button {
   padding: 30px 20px;
   height: 320px;
 }
-#sub-footer img {
+#sub-footer a img {
   float: left;
   margin-left: 90px;
 }
@@ -211,5 +231,6 @@ footer p {
 /*////////////////////*/
 
 /* about page*/
+
 
 /* end of about page*/
