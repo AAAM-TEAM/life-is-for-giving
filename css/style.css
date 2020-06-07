@@ -381,18 +381,38 @@ form input {
   font-size: 1.6em;
 }
 
+#thanks-messege2 {
+  border-top: 1px solid black;
+  
+}
+
+#thanks-messege2 a button{
+  color: #f5f5f5;
+  /* width: 135px; */
+  height: 40px;
+  margin: 3% 0 4% 45%;
+  border: none;
+  background-color: #fa446c;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 1.6em;
+}
+
 /* end of donation page*/
 
 /*////////////////////*/
 
 /* contributes page*/
 
+
+
 /* end of contributes page*/
 
 /*////////////////////*/
 
 /* about page*/
-
+#mmm {
+  margin: -18px;
+}
 #profile-images {
   display: flex;
   flex-wrap: wrap;
@@ -475,5 +495,6 @@ form input {
 #ahmad:hover {
   opacity: 80%;
 }
+
 
 /* end of about page*/
