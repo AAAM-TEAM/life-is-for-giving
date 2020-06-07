@@ -1,13 +1,13 @@
 # vision 
 
 What is the vision of this product?
-> our product is about donating and helping people in need and try to spread the happiness 
+> our product is about donating and helping people in need and try to spread the happiness.
 
 What pain point does this project solve?
 > at the first, the purpose of our website promotes the principle of social solidarity and giving by make link between donor and the needy people.
 
 Why should we care about your product?
->because we are Non-profit organization try to spread the happiness and principles of giving
+>because we are Non-profit organization try to spread the happiness and principles of giving.
 
 
 
