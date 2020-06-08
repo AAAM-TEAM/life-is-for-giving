@@ -113,6 +113,7 @@
   font-size: 24px;
   line-height: 1.6em;
   text-transform: capitalize;
+  padding-bottom: 30px;
 }
 #event img {
   width: 300px;
@@ -182,11 +183,12 @@
   color: #f5f5f5;
   width: 160px;
   height: 45px;
-  margin: -6% 7% 0 0;
+  margin: -8% 7% 0 0;
   border: none;
   background-color: #fa446c;
   font-family: "Chau Philomene One", sans-serif;
   font-size: 1.6em;
+
 }
 #sub-footer {
   background-color: #b173b2;
@@ -224,11 +226,13 @@
   font-size: 20px;
   padding-left: 140px;
   padding-top: 60px;
+  margin-right: 100px;
 }
 #contactInfo h3 {
   line-height: 1.4em;
   font-family: "Varela Round", sans-serif;
 }
+
 #footer-images img {
   padding-left: 10px;
   padding-top: 170px;
