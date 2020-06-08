@@ -48,4 +48,48 @@ function allOptionsForm() {
   }
 }
 allOptionsForm();
-
+​
+// adding eventlistner
+var onSubmit = document.querySelector("#formOptions");
+onSubmit.addEventListener("submit", handlesubmit);
+// handle submit function to save values
+var itemName, numberQuantity, qualityType, cityName;
+function handlesubmit(event) {
+    // prevent the page from update
+    event.preventDefault();
+    // getting the values
+    itemName = document.getElementById("item-2").value;
+    numberQuantity = document.getElementById("quantity-2").value;
+    qualityType = document.getElementById("quality-2").value;
+    cityName = document.getElementById("branch-2").value;
+    // console.log(itemName,numberQuantity,qualityType,cityName);
+    
+    // this will create object of donated details
+    new Donate(itemName, numberQuantity, qualityType, cityName);
+    // console.log(Donate.allDonates);
+    
+    // render the donate details
+    var ulEl = document.createElement("ul");
+    renderDonateDetails.appendChild(ulEl);
+    var liEl = document.createElement("li");
+    ulEl.appendChild(liEl);
+    liEl.textContent = `donate details: ${itemName}, Quantity is ${numberQuantity}, Quality is ${qualityType}, From ${cityName}.`;
+    // call to save details into local storage
+    sendToLocalStorage();
+    getFromLocalStorage();
+    onSubmit.reset();
+}
+​
+// send objects of donation details to the local storage
+function sendToLocalStorage() {
+    var sendArray = JSON.stringify(Donate.allDonates);
+  // console.log(sendArray);
+  localStorage.setItem("donatesInLocalStorage", sendArray);
+}
+​
+function getFromLocalStorage() {
+  var getJSON = localStorage.getItem("donatesInLocalStorage");
+  console.log(getJSON);
+  var getArray = JSON.parse(getJSON);
+  console.log(getArray);
+}
