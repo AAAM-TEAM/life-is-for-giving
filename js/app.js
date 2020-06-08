@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable quotes */
 "use strict";
 // arrays of options that can user donate with and more details
@@ -15,9 +16,9 @@ var cities = [
   "Ma'an",
 ];
 /*this array contain all object after get it from local storage */
-var itemFromLocalStorage=[];
+var itemFromLocalStorage = [];
 
-// global variables 
+// global variables
 var itemName, numberQuantity, qualityType, cityName;
 
 // this function for adding options to the form
@@ -58,6 +59,7 @@ function allOptionsForm() {
 allOptionsForm();
 
 // adding eventlistner
+
 var onSubmit = document.querySelector("#formOptions");
 onSubmit.addEventListener("submit", handlesubmit);
 // handle submit function to save values
@@ -83,9 +85,9 @@ function handlesubmit(event) {
   liEl.textContent = `donate details: ${itemName}, Quantity is ${numberQuantity}, Quality is ${qualityType}, From ${cityName}.`;
   // call to save details into local storage
   sendToLocalStorage();
-  getFromLocalStorage();
   onSubmit.reset();
 }
+getFromLocalStorage();
 
 // send objects of donation details to the local storage
 function sendToLocalStorage() {
@@ -94,14 +96,18 @@ function sendToLocalStorage() {
   localStorage.setItem("donatesInLocalStorage", sendArray);
 }
 var getArray,
-    getJSON;
+  getJSON;
 function getFromLocalStorage() {
   getJSON = localStorage.getItem("donatesInLocalStorage");
   // console.log(getJSON);
-  getArray = JSON.parse(getJSON);
+  if (getJSON) {
+
+    Donate.allDonates = JSON.parse(getJSON);
+  }
   // itemFromLocalStorage=[];
-  itemFromLocalStorage.push(getArray);
-  console.table(itemFromLocalStorage);
+  // itemFromLocalStorage.push(getArray);
+  // console.table(itemFromLocalStorage);
   // console.log(getArray);
   // console.table(getArray);
 }
+
