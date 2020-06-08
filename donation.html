@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
+​
 <body>
     <header id="header-all">
         <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
@@ -22,7 +22,7 @@
             </ul>
         </nav>
         <a href="donation.html"><button>Donate</button></a>
-
+​
     </header>
     <main>
         <section id="first-paragraph2">
@@ -46,22 +46,33 @@
             </div>
         </section>
         <section id="form-contenar2">
-            <form action="">
+            <form action="" id="formOptions">
                 <fieldset>
-                    <label for="item-2">item</label>
-                    <input type="text" id="item-2">
+                    <label for="item-2">
+                        <span>item</span>
+                        <select name="" id="item-2"></select>
+                    </label>
+                    <!-- this for insert number -->
                     <label for="quantity-2">quantity</label>
                     <input type="number" id="quantity-2">
-                    <label for="quality-2">quality</label>
-                    <input type="text" id="quality-2">
-                    <label for="branch-2">branch</label>
-                    <input type="text" id="branch-2">
+                    <!-- ******* -->
+                    <label for="quality-2">
+                        <span>quality</span>
+                        <select name="" id="quality-2"></select>
+                    </label>
+                    <label for="branch-2">
+                        <span>branch</span>
+                        <select name="" id="branch-2"></select>
+                    </label>
                     <input id="submit2" type="submit">
                 </fieldset>
             </form>
         </section>
         <section id="thanks-messege2">
             <!-- section for the thanks sentence -->
+            <div id="donatedDetails">
+                
+            </div>
            <a href="contributes.html"> <button  >Add To Contributes</button></a>
         </section>
     </main>
@@ -70,7 +81,7 @@
     </footer>
     <script src="js/app.js"></script>
     <script src="js/donation.js"></script>
-
+​
 </body>
-
+​
 </html>
