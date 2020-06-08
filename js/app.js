@@ -1,6 +1,6 @@
 "use strict";
 // arrays of options that can user donate with and more details
-var allItems = ["books", "food", "clothes"];
+var allItems = ["books", "change me", "clothes"];
 var qualityType = ["New", "Used"];
 var cities = [
   "Amman",
@@ -13,7 +13,7 @@ var cities = [
   "Kerak",
   "Ma'an",
 ];
-​
+
 // constructor for sumbitted answers
 var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   this.itemName = itemName;
@@ -23,7 +23,7 @@ var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   Donate.allDonates.push(this);
 };
 Donate.allDonates = [];
-​
+
 // this function for adding options to the form
 var addingOptions1 = document.querySelector("#item-2");
 var addingOptions2 = document.querySelector("#quality-2");
@@ -48,7 +48,7 @@ function allOptionsForm() {
   }
 }
 allOptionsForm();
-​
+
 // adding eventlistner
 var onSubmit = document.querySelector("#formOptions");
 onSubmit.addEventListener("submit", handlesubmit);
@@ -79,14 +79,14 @@ function handlesubmit(event) {
     getFromLocalStorage();
     onSubmit.reset();
 }
-​
+
 // send objects of donation details to the local storage
 function sendToLocalStorage() {
     var sendArray = JSON.stringify(Donate.allDonates);
   // console.log(sendArray);
   localStorage.setItem("donatesInLocalStorage", sendArray);
 }
-​
+
 function getFromLocalStorage() {
   var getJSON = localStorage.getItem("donatesInLocalStorage");
   console.log(getJSON);
