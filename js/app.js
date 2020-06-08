@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 "use strict";
 // arrays of options that can user donate with and more details
-var allItems = ["books", "change me", "clothes"];
+var allItems = ["books", "furniture", "clothes", "school-Supplies"];
 var qualityArray = ["New", "Used"];
 var cities = [
   "Amman",
@@ -17,6 +17,16 @@ var cities = [
 /*this array contain all object after get it from local storage */
 var itemFromLocalStorage=[];
 
+// global variables 
+var itemName, numberQuantity, qualityType, cityName;
+
+// this function for adding options to the form
+var addingOptions1 = document.querySelector("#item-2");
+var addingOptions2 = document.querySelector("#quality-2");
+var addingOptions3 = document.querySelector("#branch-2");
+var renderDonateDetails = document.querySelector("#donatedDetails");
+
+
 // constructor for sumbitted answers
 var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   this.itemName = itemName;
@@ -27,11 +37,6 @@ var Donate = function (itemName, numberQuantity, qualityType, cityName) {
 };
 Donate.allDonates = [];
 
-// this function for adding options to the form
-var addingOptions1 = document.querySelector("#item-2");
-var addingOptions2 = document.querySelector("#quality-2");
-var addingOptions3 = document.querySelector("#branch-2");
-var renderDonateDetails = document.querySelector("#donatedDetails");
 // function to add options to the form
 function allOptionsForm() {
   for (let e in allItems) {
@@ -56,7 +61,6 @@ allOptionsForm();
 var onSubmit = document.querySelector("#formOptions");
 onSubmit.addEventListener("submit", handlesubmit);
 // handle submit function to save values
-var itemName, numberQuantity, qualityType, cityName;
 function handlesubmit(event) {
   // prevent the page from update
   event.preventDefault();
@@ -90,12 +94,12 @@ function sendToLocalStorage() {
   localStorage.setItem("donatesInLocalStorage", sendArray);
 }
 var getArray,
-  getJSON;
+    getJSON;
 function getFromLocalStorage() {
   getJSON = localStorage.getItem("donatesInLocalStorage");
   // console.log(getJSON);
   getArray = JSON.parse(getJSON);
-  itemFromLocalStorage=[];
+  // itemFromLocalStorage=[];
   itemFromLocalStorage.push(getArray);
   console.table(itemFromLocalStorage);
   // console.log(getArray);
