@@ -373,7 +373,8 @@ form input {
   font-size: 1.6em;
 }
 #footer-contributes3 {
-  position: absolute;
+  display: block;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
 }
