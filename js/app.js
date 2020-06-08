@@ -90,7 +90,7 @@ function sendToLocalStorage() {
   localStorage.setItem("donatesInLocalStorage", sendArray);
 }
 var getArray,
-getJSON;
+  getJSON;
 function getFromLocalStorage() {
   getJSON = localStorage.getItem("donatesInLocalStorage");
   // console.log(getJSON);
