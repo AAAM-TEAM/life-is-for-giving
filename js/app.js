@@ -2,7 +2,7 @@
 /* eslint-disable quotes */
 "use strict";
 // arrays of options that can user donate with and more details
-var allItems = ["books", "furniture", "clothes", "school-Supplies"];
+var allItems = ["books", "furniture", "clothes", "school-Supplies", "blanket", "toys"];
 var qualityArray = ["New", "Used"];
 var cities = [
   "Amman",
@@ -17,17 +17,13 @@ var cities = [
 ];
 /*this array contain all object after get it from local storage */
 var itemFromLocalStorage = [];
-
 // global variables
 var itemName, numberQuantity, qualityType, cityName;
-
 // this function for adding options to the form
 var addingOptions1 = document.querySelector("#item-2");
 var addingOptions2 = document.querySelector("#quality-2");
 var addingOptions3 = document.querySelector("#branch-2");
 var renderDonateDetails = document.querySelector("#donatedDetails");
-
-
 // constructor for sumbitted answers
 var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   this.itemName = itemName;
@@ -37,7 +33,6 @@ var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   Donate.allDonates.push(this);
 };
 Donate.allDonates = [];
-
 // function to add options to the form
 function allOptionsForm() {
   for (let e in allItems) {
@@ -57,9 +52,7 @@ function allOptionsForm() {
   }
 }
 allOptionsForm();
-
 // adding eventlistner
-
 var onSubmit = document.querySelector("#formOptions");
 onSubmit.addEventListener("submit", handlesubmit);
 // handle submit function to save values
@@ -72,11 +65,9 @@ function handlesubmit(event) {
   qualityType = document.getElementById("quality-2").value;
   cityName = document.getElementById("branch-2").value;
   // console.log(itemName,numberQuantity,qualityType,cityName);
-
   // this will create object of donated details
   new Donate(itemName, numberQuantity, qualityType, cityName);
   // console.log(Donate.allDonates);
-
   // render the donate details
   var ulEl = document.createElement("ul");
   renderDonateDetails.appendChild(ulEl);
@@ -88,7 +79,6 @@ function handlesubmit(event) {
   onSubmit.reset();
 }
 getFromLocalStorage();
-
 // send objects of donation details to the local storage
 function sendToLocalStorage() {
   var sendArray = JSON.stringify(Donate.allDonates);
@@ -101,7 +91,6 @@ function getFromLocalStorage() {
   getJSON = localStorage.getItem("donatesInLocalStorage");
   // console.log(getJSON);
   if (getJSON) {
-
     Donate.allDonates = JSON.parse(getJSON);
   }
   // itemFromLocalStorage=[];
@@ -110,4 +99,3 @@ function getFromLocalStorage() {
   // console.log(getArray);
   // console.table(getArray);
 }
-
