@@ -3,10 +3,17 @@
 
 /* font-family: 'Chau Philomene One', sans-serif; */
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 /* heder for all */
 
 #header-all {
   font-family: "Chau Philomene One", sans-serif;
+  margin: 0% 0 0 0;
   width: 100%;
   height: 100px;
   background-image: url("../img/1440X550.jpg");
@@ -293,12 +300,16 @@
 }
 
 footer {
-  height: 60px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
   background-color: #000000;
 }
 
 footer p {
-  padding-top: 24px;
+  padding-top: 18px;
   font-family: "Varela Round", sans-serif;
   color: #f5f5f5;
   text-align: center;
@@ -420,15 +431,15 @@ form input {
   font-size: 1.6em;
 }
 
-#thanks-messege2 {
+/* #thanks-messege2 {
   border-top: 1px solid black;
-}
+} */
 
 #thanks-messege2 a button {
   color: #f5f5f5;
   /* width: 135px; */
   height: 40px;
-  margin: 3% 0 4% 45%;
+  margin: 3% 0 4% .7%;
   border: none;
   background-color: #fa446c;
   font-family: "Chau Philomene One", sans-serif;
@@ -441,6 +452,7 @@ form input {
   font-size: 16px;
   line-height: 1.6em;
   text-transform: uppercase;
+  border-top: 1px solid black;
 }
 
 #donatedDetails {
@@ -498,12 +510,11 @@ form input {
   font-size: 1.6em;
 }
 
-#footer-contributes3 {
-  display: block;
-  /* position: absolute; */
+/* #footer-contributes3 {
+  position: absolute;
   width: 100%;
   bottom: 0;
-}
+} */
 
 /* end of contributes page*/
 
@@ -511,52 +522,41 @@ form input {
 
 /* about page*/
 
-#mmm {
+/* #mmm {
   margin: -18px;
-}
+}*/
+
 
 #profile-images {
-  display: flex;
-  flex-wrap: wrap;
+  box-shadow: #b173b2 0 0 0.2em ;
+  background-color: #f1f1f18c;
+  margin: 5% 0 0 0;
+  padding: 0 0% 0 5.5%;
 }
-
-#profile-images:nth-child(1) {
-  display: inline-block;
-}
-
-#profile-images h2 {
+#profile-images h2{
+  color: #7f50da;
+  font-weight: bold;
   font-family: "Varela Round", sans-serif;
   text-align: center;
-  margin-top: 10px;
-  /* padding-top: 30px; */
-  font-size: 32px;
+  font-size: 28px;
+  line-height: 1.6em;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  margin: 0 0 0 0%;
 }
 
-#profile-images div {
-  /* padding-top: 80px; */
-  margin: 60px 20px;
-  float: left;
-  /* padding-left: 20px; */
-}
-
-#profile-images div h3 {
-  text-align: center;
-  padding-right: 50px;
-  padding-top: 10px;
-  font-family: "Varela Round", sans-serif;
-  font-size: 18px;
-}
-
-#abdulelah {
-  width: 250px;
+.imgOfTeam {
+  width: 225px;
+  height: 225px;
   border-radius: 50%;
-  border: 0.7em solid rgb(228, 228, 228);
-  height: 250px;
+  border: 0.15em solid #7e50da6c;
+  box-shadow: #b173b2 0px 1px 1em;
+  margin: 0 0 0 6%;
 }
 
-#abdulelah:hover {
-  opacity: 80%;
-}
+.all-img:hover {
+  opacity: 75%;
+} 
 
 /* #abdulelah:hover + .links4{
   display: inline-block;
@@ -565,6 +565,7 @@ form input {
   display: none;
 } */
 
+/* 
 #mohammad {
   width: 250px;
   border-radius: 50%;
@@ -596,6 +597,6 @@ form input {
 
 #ahmad:hover {
   opacity: 80%;
-}
+} */
 
 /* end of about page*/
