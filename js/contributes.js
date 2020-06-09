@@ -27,7 +27,7 @@ div1.appendChild(makeSection)
     var removeButton = document.createElement('button');
     removeButton.setAttribute('id', x);
     div1.appendChild(removeButton);
-    removeButton.textContent = "x";
+    removeButton.textContent = "Remove";
     var contributesTitle = document.getElementById('contributeTitle3');
     if (localStorage) {
       document.getElementById("removemessage").innerHTML = `<section id="contributes_befor-submit3">
@@ -54,7 +54,7 @@ function removeData () {
 getMain.addEventListener('click', (event)=>{
   console.log(event.target);
   var deleteId; 
-  if (event.target.textContent === 'x'){
+  if (event.target.textContent === 'Remove'){
     deleteId = event.target.id;
     Donate.allDonates.splice(deleteId,1);
     sendToLocalStorage();
