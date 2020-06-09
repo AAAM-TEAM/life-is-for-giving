@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable quotes */
 'use strict';
+var resetButton = document.getElementById('resetDiv3')
 console.log(Donate.allDonates);
 var getMain = document.getElementById("contributes-main3");
 function renderDataFromLocalStorage() {
@@ -38,6 +39,8 @@ function renderDataFromLocalStorage() {
       <div><a href="donation.html"><button>Donate</button></a></div>
   </section>`;
       contributesTitle.innerHTML = "This Is Your Contributes:";
+      resetButton.innerHTML = `<p>If you want to reset your contributes</p>
+      <button onclick="resetLocalStorage()">Press Here</button>`
     }
   }
 }
@@ -57,3 +60,9 @@ getMain.addEventListener('click', (event)=>{
     renderDataFromLocalStorage();
   }
 });
+
+function resetLocalStorage() {
+  localStorage.clear();
+  location.reload();
+
+}
