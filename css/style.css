@@ -522,65 +522,52 @@ form input {
 
 /* about page*/
 
-/* #mmm {
+#mmm {
   margin: -18px;
-    margin: 60px 20px;
-  float: left;
-  display: flex;
-  flex-wrap: wrap;
-}*/
-
+}
 
 #profile-images {
-  width: 100%;
-  box-shadow: #b173b2 0 0 0.2em ;
-  background-color: #f1f1f18c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profile-images:nth-child(1) {
   display: inline-block;
-  /* margin: 5% 0 0 0;
-  padding: 0 0% 0 5.5%; */
-
 }
 
-
-#profile-images h2{
-  color: #7f50da;
-  font-weight: bold;
+#profile-images h2 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
-  font-size: 28px;
-  line-height: 1.6em;
-  text-transform: capitalize;
-  padding-bottom: 20px;
-  margin: 0 0 0 0%;
+  margin-top: 10px;
+  /* padding-top: 30px; */
+  font-size: 32px;
 }
 
-#profile-images div{
-  float: left;
+#profile-images div {
+  /* padding-top: 80px; */
   margin: 60px 20px;
+  float: left;
+  /* padding-left: 20px; */
 }
-#profile-images div h3{
+
+#profile-images div h3 {
   text-align: center;
-  padding-right: 10px 50px 0 0;
+  padding-right: 50px;
+  padding-top: 10px;
   font-family: "Varela Round", sans-serif;
-  text-transform: capitalize;
   font-size: 18px;
 }
 
-
-
-.imgOfTeam img {
-  width: 225px;
-  height: 225px;
+#abdulelah {
+  width: 250px;
   border-radius: 50%;
-  /* border: 0.15em solid #7e50da6c;
-  box-shadow: #b173b2 0px 1px 1em; */
+  border: 0.7em solid rgb(228, 228, 228);
+  height: 250px;
 }
 
-.all-img:hover {
-  opacity: 75%;
-} 
-
-
+#abdulelah:hover {
+  opacity: 80%;
+}
 
 /* #abdulelah:hover + .links4{
   display: inline-block;
@@ -589,7 +576,6 @@ form input {
   display: none;
 } */
 
-/* 
 #mohammad {
   width: 250px;
   border-radius: 50%;
@@ -621,6 +607,6 @@ form input {
 
 #ahmad:hover {
   opacity: 80%;
-} */
+}
 
 /* end of about page*/
