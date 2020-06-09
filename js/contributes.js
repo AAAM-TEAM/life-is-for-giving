@@ -13,20 +13,22 @@ function renderDataFromLocalStorage() {
     imageContainer.src = `img/${Donate.allDonates[x].itemName}.png`;
     div1.appendChild(imageContainer);
     console.log(imageContainer.src);
+    var makeSection = document.createElement("section");
+div1.appendChild(makeSection)
     var paragraph1 = document.createElement("p");
     paragraph1.textContent = `Quantity: ${Donate.allDonates[x].numberQuantity}`;
-    div1.appendChild(paragraph1);
+    makeSection.appendChild(paragraph1);
     var paragraph2 = document.createElement("p");
     paragraph2.textContent = `quality: ${Donate.allDonates[x].qualityType}`;
-    div1.appendChild(paragraph2);
+    makeSection.appendChild(paragraph2);
     var paragraph3 = document.createElement("p");
     paragraph3.textContent = `city Name: ${Donate.allDonates[x].cityName}`;
-    div1.appendChild(paragraph3);
-    var contributesTitle = document.getElementById('contributeTitle3');
+    makeSection.appendChild(paragraph3);
     var removeButton = document.createElement('button');
     removeButton.setAttribute('id', x);
     div1.appendChild(removeButton);
     removeButton.textContent = "x";
+    var contributesTitle = document.getElementById('contributeTitle3');
     if (localStorage) {
       document.getElementById("removemessage").innerHTML = `<section id="contributes_befor-submit3">
       <!-- section if there weren't any contributes -->
