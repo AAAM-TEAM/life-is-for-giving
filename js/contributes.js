@@ -1,12 +1,10 @@
 /* eslint-disable no-undef */
 /* eslint-disable quotes */
 'use strict';
-
 console.log(Donate.allDonates);
 var getMain = document.getElementById("contributes-main3");
 function renderDataFromLocalStorage() {
   getFromLocalStorage();
-  removedonate();
   for (var x = 0; x < Donate.allDonates.length; x++) {
     var div1 = document.createElement("div");
     getMain.appendChild(div1);
@@ -23,31 +21,21 @@ function renderDataFromLocalStorage() {
     var paragraph3 = document.createElement("p");
     paragraph3.textContent = `city Name: ${Donate.allDonates[x].cityName}`;
     getMain.appendChild(paragraph3);
-
-    // var contributesTitle = document.getElementById('contributeTitle3');
-    // if (conter.length == 1) {
-    //   document.getElementById("contributes_befor-submit3").remove();
-    //   contributesTitle.innerHTML = "This Is Your Contributes:";
-    // }
+    var contributesTitle = document.getElementById('contributeTitle3');
+    if (localStorage) {
+      document.getElementById("removemessage").innerHTML = `<section id="contributes_befor-submit3">
+      <!-- section if there weren't any contributes -->
+      <h2>Thanks you for giving</h2>
+      <div>
+          <p>
+             If you want to donate more just click on the button
+          </p>
+      </div>
+      <div><a href="donation.html"><button>Donate</button></a></div>
+  </section>`;
+      contributesTitle.innerHTML = "This Is Your Contributes:";
+    }
   }
 }
 console.log("leng", Donate.allDonates.length);
 renderDataFromLocalStorage();
-
-
-function removedonate() {
-  getMain.innerHTML = `<section id="contributes_befor-submit3">
-  <!-- section for adding -->
-  <h2>There is no any Contributes !!</h2>
-  <div>
-      <p>
-          If you want Spread Happiness and make some donations just
-      </p>
-  </div>
-  <div><a href="donation.html"><button>Donate</button></a></div>
-</section>
-<section id="theDonateItems3">
-  
-</section>`;
-
-}
