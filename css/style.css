@@ -299,19 +299,26 @@ form label {
   display: block;
   text-align: left;
   font-size: 1.4em;
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
 }
-form input {
+form select,input {
   width: 50%;
   height: 25px;
   display: block;
   margin: -25px 0 0 40%;
 }
+form input {
+  width: 48.3%;
+  height: 25px;
+  display: block;
+  margin: -25px 0 0 40%;
+}
+
 #submit2 {
   color: #f5f5f5;
   width: 135px;
   height: 40px;
-  margin: 7% 0 4% 64%;
+  margin: 7% 0 4% 38%;
   border: none;
   background-color: #fa446c;
   font-family: "Chau Philomene One", sans-serif;
@@ -336,6 +343,17 @@ form input {
   font-size: 16px;
   line-height: 1.6em;
   text-transform: uppercase;
+}
+
+#donatedDetails{
+  position: relative;
+}
+#donatedDetails ul{
+  margin: 2% 0 0 0;
+}
+#donatedDetails ul li{
+text-align: center;
+font-size: 1.4em;
 }
 /* end of donation page*/
 /*////////////////////*/
