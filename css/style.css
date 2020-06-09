@@ -3,17 +3,6 @@
 
 /* font-family: 'Chau Philomene One', sans-serif; */
 
-/* color palette {
-color:#000;
-color: #fa446c;
-color:#f1f1f1;
-color:#b173b2;
-color:#f5f5f5;
-color:#7f50da;
-}
-*/
-
-​
 /* heder for all */
 
 #header-all {
@@ -220,8 +209,6 @@ color:#7f50da;
 }
 
 #donate-section h2 {
-  color: #7f50da;
-  font-weight: bold;
   font-family: "Varela Round", sans-serif;
   text-align: center;
   font-size: 28px;
@@ -230,7 +217,6 @@ color:#7f50da;
 }
 
 #donate-section p {
-  padding-top: 20px;
   font-family: "Varela Round", sans-serif;
   text-align: center;
   font-size: 16px;
@@ -243,7 +229,7 @@ color:#7f50da;
   color: #f5f5f5;
   width: 160px;
   height: 45px;
-  margin: -4.8% 44.5% 0 0;
+  margin: -4% 44.5% 0 0;
   border: none;
   background-color: #fa446c;
   font-family: "Chau Philomene One", sans-serif;
@@ -301,7 +287,7 @@ color:#7f50da;
   font-family: "Varela Round", sans-serif;
 }
 
-​ #footer-images img {
+#footer-images img {
   padding-left: 10px;
   padding-top: 170px;
 }
@@ -329,18 +315,18 @@ footer p {
   padding: 30px 20%;
 }
 
-#first-paragraph2 h3 {
-  padding-bottom: 40px;
-  color: #7f50da;
-  font-weight: bold;
+#first-paragraph2 p {
   font-family: "Varela Round", sans-serif;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.6em;
   text-transform: capitalize;
 }
 
-#first-paragraph2 p {
+#first-paragraph2 h3 {
+  padding-bottom: 40px;
+  color: #7f50da;
+  font-weight: bold;
   font-family: "Varela Round", sans-serif;
   text-align: center;
   font-size: 24px;
@@ -423,7 +409,7 @@ form input {
   margin: -25px 0 0 40%;
 }
 
-​ #submit2 {
+#submit2 {
   color: #f5f5f5;
   width: 135px;
   height: 40px;
@@ -449,7 +435,7 @@ form input {
   font-size: 1.6em;
 }
 
-#thanks-message2 p {
+#thanks-messege2 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
   font-size: 16px;
@@ -457,7 +443,7 @@ form input {
   text-transform: uppercase;
 }
 
-​ #donatedDetails {
+#donatedDetails {
   position: relative;
 }
 
@@ -512,7 +498,7 @@ form input {
   font-size: 1.6em;
 }
 
-​ #footer-contributes3 {
+#footer-contributes3 {
   display: block;
   /* position: absolute; */
   width: 100%;
