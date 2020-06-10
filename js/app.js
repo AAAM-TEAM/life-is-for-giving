@@ -74,8 +74,8 @@ function handlesubmit(event) {
   renderDonateDetails.appendChild(ulEl);
   var liEl = document.createElement("li");
   ulEl.appendChild(liEl);
-  /* to appire "go to contributes" button */
   liEl.textContent = `donate details: ${itemName}, Quantity is ${numberQuantity}, Quality is ${qualityType}, From ${cityName}.`;
+  /* this is for appiar go to contributes */
   goToContributes.style.visibility = "visible";
   // call to save details into local storage
   sendToLocalStorage();
