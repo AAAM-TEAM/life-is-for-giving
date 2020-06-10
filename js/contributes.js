@@ -50,8 +50,14 @@ div1.appendChild(makeSection)
       contributesTitle.innerHTML = "This Is Your Contributes:";
       resetButton.innerHTML = `<div id="resetDiv3">
       <p>If you want to reset your contributes</p>
-  <button onclick="resetLocalStorage()">Press Here</button>
-  </div>`
+      <a  onclick="resetLocalStorage()">
+      Press here 
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+ </a>
+  </div>`;
     }
   }
 }
