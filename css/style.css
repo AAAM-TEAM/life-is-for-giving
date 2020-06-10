@@ -389,7 +389,7 @@ footer p {
 #legend {
   text-align: center;
   font-size: 28px;
-  color: #000;
+  color: #7f50da;
   margin: 20px 0px 40px 0px;
 }
 
@@ -512,6 +512,10 @@ margin-bottom: -18px;
 #donatedDetails ul li {
   text-align: center;
   font-size: 1.4em;
+}
+
+#hiddenButton{
+visibility: hidden;
 }
 
 /* end of donation page*/

@@ -24,6 +24,7 @@ var addingOptions1 = document.querySelector("#item-2");
 var addingOptions2 = document.querySelector("#quality-2");
 var addingOptions3 = document.querySelector("#branch-2");
 var renderDonateDetails = document.querySelector("#donatedDetails");
+var goToContributes = document.querySelector("#hiddenButton");
 // constructor for sumbitted answers
 var Donate = function (itemName, numberQuantity, qualityType, cityName) {
   this.itemName = itemName;
@@ -73,7 +74,9 @@ function handlesubmit(event) {
   renderDonateDetails.appendChild(ulEl);
   var liEl = document.createElement("li");
   ulEl.appendChild(liEl);
+  /* to appire "go to contributes" button */
   liEl.textContent = `donate details: ${itemName}, Quantity is ${numberQuantity}, Quality is ${qualityType}, From ${cityName}.`;
+  goToContributes.style.visibility = "visible";
   // call to save details into local storage
   sendToLocalStorage();
   onSubmit.reset();
