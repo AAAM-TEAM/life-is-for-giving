@@ -53,7 +53,6 @@ body {
   color: #000;
 }
 
-
 #header-all button {
   position: absolute;
   right: 2%;
@@ -252,14 +251,17 @@ body {
   margin-left: 90px;
   margin-top: -36px;
 }
+
 #iconId {
   color: #000;
   font-size: 28px;
   padding-left: 20px;
 }
+
 #iconId:hover {
   color: #f5f5f5;
 }
+
 #sub-footer img:nth-child(2) {
   margin-left: 10px;
 }
@@ -325,9 +327,11 @@ footer p {
 /*////////////////////*/
 
 /* donation page*/
+
 #donationBody {
   margin-top: -17px;
 }
+
 #first-paragraph2 {
   margin-top: 105px;
   padding: 30px 20%;
@@ -400,7 +404,6 @@ form {
   background-size: cover;
   font-family: "Chau Philomene One", sans-serif;
   padding: 1% 10%;
-
 }
 
 legend {
@@ -415,11 +418,9 @@ form label {
   text-align: left;
   font-size: 1.4em;
   margin: 5% 0 0 0;
-
 }
 
-
-form select{
+form select {
   font-family: "Chau Philomene One", sans-serif;
   width: 50%;
   height: 47px;
@@ -437,6 +438,7 @@ form select{
   -webkit-appearance: button;
   outline: none;
 }
+
 /*
 form select:before {
   content: '\f358';
@@ -454,7 +456,6 @@ form select:before {
   pointer-events: none;
 } */
 
-
 form input {
   box-shadow: #b173b2 0px 1px 0.3em;
   background: rgba(255, 255, 255, 0.733);
@@ -463,8 +464,9 @@ form input {
   display: block;
   margin: -25px 0 0 40%;
 }
+
 #donationFooter {
-margin-bottom: -18px;
+  margin-bottom: -18px;
 }
 
 #submit2 {
@@ -503,7 +505,6 @@ margin-bottom: -18px;
 
 #donatedDetails {
   position: relative;
- 
 }
 
 #donatedDetails ul {
@@ -513,19 +514,17 @@ margin-bottom: -18px;
 #donatedDetails ul li {
   text-align: center;
   font-size: 1.4em;
-   text-transform: capitalize;
-   background-color: #f1f1f1;
-   padding: 20px;
-   width: 50%;
-   margin: 0 0 0 24%;
-   box-shadow: #b173b2 0px 1px 0.3em;
-   
+  text-transform: capitalize;
+  background-color: #f1f1f1;
+  padding: 20px;
+  width: 50%;
+  margin: 0 0 0 24%;
+  box-shadow: #b173b2 0px 1px 0.3em;
 }
 
-#hiddenButton{
+#hiddenButton {
   visibility: hidden;
 }
-
 
 /* end of donation page*/
 
@@ -575,7 +574,7 @@ margin-bottom: -18px;
   bottom: 0;
 } */
 
-#contributeTitle3{
+#contributeTitle3 {
   margin: 3% 0 0 1%;
   font-size: 2em;
   font-family: 'Varela Round', sans-serif;
@@ -584,43 +583,40 @@ margin-bottom: -18px;
   text-align: center;
 }
 
-
-#contributes-main3 div{
+#contributes-main3 div {
   margin: 3% 0 0 22%;
   /* border-top: 2px solid palevioletred;
   border-bottom:2px solid palevioletred ; */
   box-shadow: #b173b2 0px 1px 0.3em;
   padding-bottom: 6%;
-  background-color:#f1f1f1;
+  background-color: #f1f1f1;
   width: 50%;
   height: 135px;
   padding-left: 5%;
-
 }
 
-#contributes-main3 div:hover{
+#contributes-main3 div:hover {
   box-shadow: gray 0px 1px 1em;
 }
 
-#contributes-main3 div img{
+#contributes-main3 div img {
   width: 190px;
   height: 190px;
   border-radius: 50%;
   float: left;
   box-shadow: #b173b2 0px 1px 0.3em;
   margin: 2.3% 0 0 2.3%;
-
 }
 
-#contributes-main3 div section{
-float: left;
-font-size: 25px;
-padding: 3.5% 0 0 8%;
+#contributes-main3 div section {
+  float: left;
+  font-size: 25px;
+  padding: 3.5% 0 0 8%;
 }
 
-#contributes-main3 div a{
-margin: 11.8% 0 0 8% ;
- position: relative;
+#contributes-main3 div a {
+  margin: 11.8% 0 0 8%;
+  position: relative;
   /* right: 2%;
   top: 4%;  */
   display: inline-block;
@@ -640,25 +636,26 @@ margin: 11.8% 0 0 8% ;
   /* border-radius: 13px; */
 }
 
-#contributes-main3 div section p{
-padding: 10px;
-font-family: 'Varela Round', sans-serif;
-text-transform: capitalize;
-border-radius: 12px;
-box-shadow: #b173b2 0 0 0.2em ;
-text-align: center;
-background-color:#b173b2 ;
-margin-bottom: 12px;
-color: white;
+#contributes-main3 div section p {
+  padding: 10px;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: capitalize;
+  border-radius: 12px;
+  box-shadow: #b173b2 0 0 0.2em;
+  text-align: center;
+  background-color: #b173b2;
+  margin-bottom: 12px;
+  color: white;
 }
 
-#resetDiv3{
+#resetDiv3 {
   margin: 5% 0 7% 25%;
   background-color: #F1F1F1;
   padding: 20px;
   width: 45%;
-  box-shadow: #B173B2 0 0 0.2em ;
+  box-shadow: #B173B2 0 0 0.2em;
 }
+
 #resetDiv3 p {
   float: left;
   font-family: "Varela Round", sans-serif;
@@ -666,15 +663,16 @@ color: white;
   line-height: 1.6em;
   margin-left: 28px;
 }
-#resetDiv3 button{
-    color: #F5F5F5;
-    width: 135px;
-    height: 40px;
-    border: none;
-    background-color: red;
-    font-family: "Chau Philomene One", sans-serif;
-    font-size: 1.6em;
-    border-radius: 13px;
+
+#resetDiv3 button {
+  color: #F5F5F5;
+  width: 135px;
+  height: 40px;
+  border: none;
+  background-color: red;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 1.6em;
+  border-radius: 13px;
   margin: 1px 0 0 40px;
 }
 
@@ -684,12 +682,9 @@ color: white;
 
 /* about page*/
 
-
-
 #mmm {
   height: 1005;
   margin: -15.8px -11px 0px 0;
-
 }
 
 #profile-images {
@@ -702,10 +697,11 @@ color: white;
   padding-top: 2%;
 }
 
-#profile-images a{
+#profile-images a {
   /* display: inline; */
-font-size: 28px;
+  font-size: 28px;
 }
+
 /* #profile-images i{
 
 } */
@@ -731,18 +727,20 @@ font-size: 28px;
   /* padding-left: 20px; */
 }
 
-
-#profile-images div a img{
+#profile-images div a img {
   width: 42px;
 }
-#profile-images div a img:hover{
-opacity: 70%;
-width: 40px;
+
+#profile-images div a img:hover {
+  opacity: 70%;
+  width: 40px;
 }
+
 .linkedIn {
-display: inline-block;
+  display: inline-block;
   padding: 0 0 0 83.5px;
 }
+
 #profile-images div h3 {
   text-align: center;
   padding-right: -20px;
@@ -753,14 +751,18 @@ display: inline-block;
 }
 
 #abdulelah {
-  width: 250px;
+  width: 225px;
   border-radius: 50%;
-  box-shadow: #B173B2 0 0 .4em ;
-  height: 250px;
+  box-shadow: #B173B2 0 0 .4em;
+  height: 225px;
 }
 
 #abdulelah:hover {
+  transition-duration: 0.5s;
   opacity: 80%;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 /* #abdulelah:hover + .links4{
@@ -771,102 +773,121 @@ display: inline-block;
 } */
 
 #mohammad {
-  width: 250px;
+  width: 225px;
   border-radius: 50%;
-  box-shadow: #B173B2 0 0 .4em ;
-  height: 250px;
+  box-shadow: #B173B2 0 0 .4em;
+  height: 225px;
 }
 
 #mohammad:hover {
+  transition-duration: 0.5s;
   opacity: 80%;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 #anas {
-  width: 250px;
+  width: 225px;
   border-radius: 50%;
-  box-shadow: #B173B2 0 0 .4em ;
-  height: 250px;
+  box-shadow: #B173B2 0 0 .4em;
+  height: 225px;
 }
 
 #anas:hover {
-  opacity: 75%;
+  transition-duration: 0.5s;
+  opacity: 80%;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 #ahmad {
-  width: 250px;
+  width: 225px;
   border-radius: 50%;
-  box-shadow: #B173B2 0 0 .4em ;
-  height: 250px;
+  box-shadow: #B173B2 0 0 .4em;
+  height: 225px;
 }
 
 #ahmad:hover {
   transition-duration: 0.5s;
   opacity: 80%;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.3);
 }
 
-#aboutfooter{
+#aboutfooter {
   margin-bottom: -16px;
 }
 
 /* end of about page*/
 
-
 /* hover button  */
 
-#contributes-main3 div a:hover{
+#contributes-main3 div a:hover {
   color: #000;
   background: #f35d21af;
   border-radius: 12px;
-  box-shadow:  0 0 0px #f35d21, 0 0 20px #f35d21, 0 0 10px #f35d21;
+  box-shadow: 0 0 0px #f35d21, 0 0 20px #f35d21, 0 0 10px #f35d21;
   transition-delay: .2s;
 }
+
 #contributes-main3 div a span {
   position: absolute;
   display: block;
 }
-#contributes-main3 div a span:nth-child(1){
+
+#contributes-main3 div a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg,transparent,#f35d21);
+  background: linear-gradient(90deg, transparent, #f35d21);
 }
-#contributes-main3 div a:hover span:nth-child(1){
+
+#contributes-main3 div a:hover span:nth-child(1) {
   left: 100%;
   transition: .2s;
 }
-#contributes-main3 div a span:nth-child(3){
+
+#contributes-main3 div a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
   height: 1px;
-  background: linear-gradient(270deg,transparent,#f35d21);
+  background: linear-gradient(270deg, transparent, #f35d21);
 }
-#contributes-main3 div a:hover span:nth-child(3){
+
+#contributes-main3 div a:hover span:nth-child(3) {
   right: 100%;
   transition: 1s;
   transition-delay: 0.1s;
 }
-#contributes-main3 div a span:nth-child(2){
+
+#contributes-main3 div a span:nth-child(2) {
   top: -100;
   right: 0%;
   width: 1px;
   height: 100%;
-  background: linear-gradient(180deg,transparent,#f35d21);
+  background: linear-gradient(180deg, transparent, #f35d21);
 }
-#contributes-main3 div a:hover span:nth-child(2){
+
+#contributes-main3 div a:hover span:nth-child(2) {
   top: 100%;
   transition: 1s;
   transition-delay: 0.05s;
 }
-#contributes-main3 div a span:nth-child(4){
+
+#contributes-main3 div a span:nth-child(4) {
   bottom: -100;
   left: 0%;
   width: 1px;
   height: 100%;
-  background: linear-gradient(360deg,transparent,#f35d21);
+  background: linear-gradient(360deg, transparent, #f35d21);
 }
-#contributes-main3 div a:hover span:nth-child(4){
+
+#contributes-main3 div a:hover span:nth-child(4) {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.025s;
@@ -886,7 +907,6 @@ display: inline-block;
   top: 0;
   right: -20px;
   transition: 0.5s;
- 
 }
 
 .button:hover span {
@@ -899,82 +919,91 @@ display: inline-block;
   right: 0;
 }
 
-#resetSection3 a{
-  margin: 0.5% 0 0 6.5% ;
-   position: relative;
-    /* right: 2%;
+#resetSection3 a {
+  margin: 0.5% 0 0 6.5%;
+  position: relative;
+  /* right: 2%;
     top: 4%;  */
-    display: inline-block;
-    color: #f35d21;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.2s;
-    /*  width: 135px;
+  display: inline-block;
+  color: #f35d21;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  /*  width: 135px;
     height: 40px;
     border: none;
     background-color: #f5f5f5;  */
-    padding: 7px 16px;
-    font-family: "Chau Philomene One", sans-serif;
-    font-size: 1.5em;
-    /* border-radius: 13px; */
-  }
+  padding: 7px 16px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 1.5em;
+  /* border-radius: 13px; */
+}
 
-#resetSection3 a:hover{
+#resetSection3 a:hover {
   color: #000;
   background: #f35d21af;
   border-radius: 12px;
-  box-shadow:  0 0 0px #f35d21, 0 0 20px #f35d21, 0 0 10px #f35d21;
+  box-shadow: 0 0 0px #f35d21, 0 0 20px #f35d21, 0 0 10px #f35d21;
   transition-delay: .2s;
 }
+
 #resetSection3 a span {
   position: absolute;
   display: block;
 }
-#resetSection3 a span:nth-child(1){
+
+#resetSection3 a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg,transparent,#f35d21);
+  background: linear-gradient(90deg, transparent, #f35d21);
 }
-#resetSection3 a:hover span:nth-child(1){
+
+#resetSection3 a:hover span:nth-child(1) {
   left: 100%;
   transition: .2s;
 }
-#resetSection3 a span:nth-child(3){
+
+#resetSection3 a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
   height: 1px;
-  background: linear-gradient(270deg,transparent,#f35d21);
+  background: linear-gradient(270deg, transparent, #f35d21);
 }
-#resetSection3 a:hover span:nth-child(3){
+
+#resetSection3 a:hover span:nth-child(3) {
   right: 100%;
   transition: 1s;
   transition-delay: 0.1s;
 }
-#resetSection3 a span:nth-child(2){
+
+#resetSection3 a span:nth-child(2) {
   top: -100;
   right: 0%;
   width: 1px;
   height: 100%;
-  background: linear-gradient(180deg,transparent,#f35d21);
+  background: linear-gradient(180deg, transparent, #f35d21);
 }
-#resetSection3 a:hover span:nth-child(2){
+
+#resetSection3 a:hover span:nth-child(2) {
   top: 100%;
   transition: 1s;
   transition-delay: 0.05s;
 }
-#resetSection3 a span:nth-child(4){
+
+#resetSection3 a span:nth-child(4) {
   bottom: -100;
   left: 0%;
   width: 1px;
   height: 100%;
-  background: linear-gradient(360deg,transparent,#f35d21);
+  background: linear-gradient(360deg, transparent, #f35d21);
 }
-#resetSection3 a:hover span:nth-child(4){
+
+#resetSection3 a:hover span:nth-child(4) {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.025s;
