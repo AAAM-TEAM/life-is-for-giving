@@ -31,8 +31,7 @@ div1.appendChild(makeSection)
     var contributesTitle = document.getElementById('contributeTitle3');
     if (localStorage) {
       document.getElementById("removemessage").innerHTML = `<section id="contributes_befor-submit3">
-      <!-- section if there weren't any contributes -->
-      <h2>Thanks you for giving</h2>
+      <h2>Thank you for giving</h2>
       <div>
           <p>
              If you want to donate more just click on the button
@@ -40,7 +39,7 @@ div1.appendChild(makeSection)
       </div>
       <div><a href="donation.html"><button>Donate</button></a></div>
   </section>`;
-      contributesTitle.innerHTML = "This Is Your Contributes:";
+      contributesTitle.innerHTML = "This Is Your Contributions:";
       resetButton.innerHTML = `<p>If you want to reset your contributes</p>
       <button onclick="resetLocalStorage()">Press Here</button>`
     }
