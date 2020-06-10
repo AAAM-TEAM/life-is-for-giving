@@ -503,6 +503,7 @@ margin-bottom: -18px;
 
 #donatedDetails {
   position: relative;
+ 
 }
 
 #donatedDetails ul {
@@ -512,11 +513,19 @@ margin-bottom: -18px;
 #donatedDetails ul li {
   text-align: center;
   font-size: 1.4em;
+   text-transform: capitalize;
+   background-color: #f1f1f1;
+   padding: 20px;
+   width: 50%;
+   margin: 0 0 0 24%;
+   box-shadow: #b173b2 0px 1px 0.3em;
+   
 }
 
 #hiddenButton{
   visibility: hidden;
 }
+
 
 /* end of donation page*/
 
@@ -587,6 +596,10 @@ margin-bottom: -18px;
   height: 135px;
   padding-left: 5%;
 
+}
+
+#contributes-main3 div:hover{
+  box-shadow: gray 0px 1px 1em;
 }
 
 #contributes-main3 div img{
