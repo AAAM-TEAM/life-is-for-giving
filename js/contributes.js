@@ -45,7 +45,7 @@ div1.appendChild(makeSection)
              If you want to donate more just click on the button
           </p>
       </div>
-      <a href="donation.html"><button><i class="far fa-heart"></i> Donate</button></a>
+      <a href="donation.html"><button class="button"><span><i class="far fa-heart"></i> Donate </span></button></a>
       </section>`;
       contributesTitle.innerHTML = "This Is Your Contributes:";
       resetButton.innerHTML = `<div id="resetDiv3">
