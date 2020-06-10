@@ -24,10 +24,18 @@ div1.appendChild(makeSection)
     var paragraph3 = document.createElement("p");
     paragraph3.textContent = `city Name: ${Donate.allDonates[x].cityName}`;
     makeSection.appendChild(paragraph3);
-    var removeButton = document.createElement('button');
+    var removeButton = document.createElement('a');
     removeButton.setAttribute('id', x);
     div1.appendChild(removeButton);
     removeButton.textContent = "Remove";
+    var span = document.createElement('span');
+    removeButton.appendChild(span);
+    var span = document.createElement('span');
+    removeButton.appendChild(span);
+    var span = document.createElement('span');
+    removeButton.appendChild(span);
+    var span = document.createElement('span');
+    removeButton.appendChild(span);
     var contributesTitle = document.getElementById('contributeTitle3');
     if (localStorage) {
       document.getElementById("removemessage").innerHTML = `<section id="contributes_befor-submit3">
