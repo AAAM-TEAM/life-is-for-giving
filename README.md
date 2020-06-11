@@ -1,8 +1,6 @@
 # life-is-for-giving
 
-[the wireFrame](https://1drv.ms/p/s!AtmRC1qrWigpjmkaJ4Mg53MZ-iYl?e=G43WSn)
-
-
+[the wireFrame](https://onedrive.live.com/view.aspx?resid=29285AAB5A0B91D9!1937&ithint=file%2cpptx&authkey=!APApEqaNN5Yluds)
 
 
 ### Domain Modeling
